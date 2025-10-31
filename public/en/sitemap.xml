@@ -22,7 +22,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="tr-TR"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/hakkimizda/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr-TR"
+                href="http://localhost:1313/sss/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -34,7 +39,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="tr-TR"
-                href="http://localhost:1313/contacts/"
+                href="http://localhost:1313/iletisim/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -43,15 +48,5 @@
                 />
   </url><url>
     <loc>http://localhost:1313/faqs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr-TR"
-                href="http://localhost:1313/faqs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/faqs/"
-                />
   </url>
 </urlset>
