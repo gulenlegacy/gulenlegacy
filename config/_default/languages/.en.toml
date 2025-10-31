@@ -35,9 +35,40 @@ Through programs that emphasize accountability, transparency, and ethical leader
 
         """
 
-[params.about]
+[params.office]
   title = "About Us"
- description = "About Us"
+  description = "Maybe a longer description"
+  [params.office.list]
+    [params.office.list.0]
+      name= "Fatih Yanik"
+      title= "President"
+      bio= """ <p>As President of the Fethullah Gulen Legacy Foundation, Fatih Yanik leads the board, oversees
+                            media relations, and provides vision and direction for the organization’s programs and
+                            outreach. He has served as an intra-faith and interfaith dialogue coordinator in multiple
+                            states and has volunteered for over seven years as a youth mentor within the Hizmet
+                            Movement, organizing camps and activities across the United States.
+                        </p>
+                        <p>Fatih holds a bachelor’s degree in Creative Media from the University of Hawaii and is
+                            currently pursuing a master’s degree in Islamic Studies at Respect Graduate School.
+                            Professionally, he spent three years at ʻŌlelo Community Television, a nonprofit
+                            public-access tv station, and now works as a Senior Broadcast Engineer at PBS Hawaii, a
+                            nationally recognized nonprofit media organization.
+                        </p>
+                        <p>As the youngest founding member Fatih has an energetic and fresh demeanor. With extensive
+                            experience in nonprofit media and years of grassroots coordination in the Hizmet Movement,
+                            Fatih brings a unique blend of technical expertise, leadership, and community engagement to
+                            his role at the Foundation. """
+      imageSrc = "https://drive.google.com/thumbnail?id=sss1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+    [params.office.list.1]
+      name= "Murtaza Ozdemir"
+      title= "Secretary"
+      bio= "long bio long biolong biolong biolong biolong biolong biolong biolong bio"
+      imageSrc = "https://drive.google.com/thumbnail?id=sss1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+    [params.office.list.2]
+      name= "Mustafa ParDane"
+      title= "Treasurer"
+      bio= """As Treasurer of the Fethullah Gulen Legacy Foundation, Mustafa ParDane leads the board's financial governance. His responsibilities include maintaining oversight of all financial assets, budgets, and reporting, and advising the board on financial strategy and risk management. He also oversees the preparation of financial statements, IRS Form 990, and audits, while developing financial policies and internal controls for the organization.<br><br> Mustafa considers himself \"born in Hizmet,\" having heard the word from his earliest years. His father gifted him <i>Kucuk Sozler</i> in Barla before he could read, and he first saw Fethullah Gulen in Erzurum around age three. He is a graduate of the Hizmet-affiliated Aziziye College, which he attended from K-12. Mustafa holds a bachelor's degree from Bogazici University, where he served in several roles within the Hizmet Movement throughout his college years.<br><br> After moving to the US in 2015, Mustafa transitioned into a career in software engineering. He joined Google, where he currently works as a Software Engineer in Boulder, Colorado. Drawing on one year of non-profit board experience and a lifelong connection to the Hizmet movement, Mustafa brings a unique blend of analytical expertise and dedicated service to the Foundation. """
+      imageSrc = "https://drive.google.com/thumbnail?id=1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
 
 [params.contacts]
   title = "Get in touch!"
