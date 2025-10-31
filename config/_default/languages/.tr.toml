@@ -31,6 +31,37 @@ ___
   title = "Hakkımızda"
  description = "Hakkımızda"
 
+[params.office]
+  missionTitle = "Misyonumuz"
+  missionStatement = """ Fethullah Gülen'in entellektüel, manevi ve kültürel mirasını; yasal yollar, araştırma, kamu savunuculuğu ve sivil katılım aracılığıyla etik liderliği, şeffaflığı, sosyal sorumluluğu, hukukun üstünlüğüne saygıyı ve hesap verebilirliği geliştirerek insanlığa hizmet yolunda korumak, yaşatmak ve uygulamak. """
+  visionTitle = "Vizyonumuz"
+  visionStatement = """ Eğitimin hizmete ilham verdiği, bilginin merhametle birleştiği, bilimin inançla uyum içinde olduğu ve farklılıkların karşılıklı saygıyla kucaklandığı kapsayıcı bir dünyada; şeffaflık ve hesap verebilirliğin toplumumuzun standartlarını aştığı, bireyleri ve toplumları bilgelik, diyalog ve ortak insani değerler aracılığıyla gelişmeleri için güçlendiren kurumlar. """
+  teamTitle = "Ekibimizle tanışın!"
+  title = "Hakkımızda"
+  description = "Hakkımızda"
+  [params.office.list]
+    [params.office.list.0]
+      name= "Fatih Yanik"
+      title= "President"
+      bio= """ <p>Vakfın Başkanı olarak Fatih Yanık, yönetim kuruluna başkanlık etmekte, medya ilişkilerini denetlemekte ve kuruluşun programları ile faaliyetlerine vizyon ve yön vermektedir. Birden fazla eyalette inanç içi ve dinler arası diyalog koordinatörü olarak görev yapmış ve Hizmet Hareketi içinde yedi yılı aşkın bir süre gençlik mentoru olarak gönüllü çalışarak Amerika Birleşik Devletleri genelinde kamplar ve etkinlikler düzenlemiştir.</p>
+<p>Fatih, Hawaii Üniversitesi'nden Yaratıcı Medya alanında lisans derecesine sahiptir ve şu anda Respect Graduate School'da İslam Araştırmaları alanında yüksek lisans eğitimine devam etmektedir. Profesyonel olarak, kâr amacı gütmeyen bir kamuya açık televizyon istasyonu olan ʻŌlelo Community Television'da üç yıl çalışmış olup, şu anda ulusal olarak tanınan, kâr amacı gütmeyen bir medya kuruluşu olan PBS Hawaii'de Kıdemli Yayın Mühendisi olarak görev yapmaktadır.</p>
+<p>En genç kurucu üye olarak Fatih, enerjik ve taze bir yaklaşıma sahiptir. Kâr amacı gütmeyen medya alanındaki kapsamlı deneyimi ve Hizmet Hareketi'ndeki yıllara dayanan taban koordinasyonuyla Fatih, Vakıf'taki rolüne teknik uzmanlık, liderlik ve toplumsal katılımın eşsiz bir karışımını getirmektedir.</p> """
+      imageSrc = "https://drive.google.com/thumbnail?id=sss1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+    [params.office.list.1]
+      name= "Murtaza Ozdemir"
+      title= "Secretary"
+      bio= "long bio long biolong biolong biolong biolong biolong biolong biolong bio"
+      imageSrc = "https://drive.google.com/thumbnail?id=sss1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+    [params.office.list.2]
+      name= "Mustafa ParDane"
+      title= "Treasurer"
+      bio= """Vakfın Mali İşler Sorumlusu (Veznedar) olarak Mustafa ParDane, yönetim kurulunun mali idaresine liderlik etmektedir. Sorumlulukları arasında tüm mali varlıkların, bütçelerin ve raporlamanın gözetimini sürdürmek ve yönetim kuruluna mali strateji ve risk yönetimi konusunda danışmanlık yapmak bulunmaktadır. Ayrıca, mali tabloların, IRS Form 990'ın ve denetimlerin hazırlanmasını denetlerken, organizasyon için mali politikalar ve iç kontroller geliştirmektedir.
+
+Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in içinde doğmuş" biri olarak görmektedir. Babası ona daha okuyamadan Barla'da Küçük Sözler'i hediye etmiş ve Fethullah Gülen'i ilk kez üç yaş civarındayken Erzurum'da görmüştür. Anaokulundan 12. sınıfa kadar okuduğu, Hizmet'e bağlı Aziziye Koleji mezunudur. Mustafa, Boğaziçi Üniversitesi'nden lisans derecesine sahip olup, üniversite yılları boyunca Hizmet Hareketi içinde çeşitli vazifelerde görev almıştır.
+
+2015 yılında ABD'ye taşındıktan sonra Mustafa, yazılım mühendisliği alanında bir kariyere geçiş yapmıştır. Google'a katılmış ve şu anda Boulder, Colorado'da Yazılım Mühendisi olarak çalışmaktadır. Bir yıllık kâr amacı gütmeyen kuruluş yönetim kurulu deneyimi ve Hizmet Hareketi'ne olan ömür boyu süren bağından güç alan Mustafa, Vakfa analitik uzmanlık ve adanmış hizmetin eşsiz bir karışımını getirmektedir. """
+      imageSrc = "https://drive.google.com/thumbnail?id=1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+
 [params.contacts]
   title = "İletişime geçin!"
   formCallToAction = "Bize bir mesaj bırakın."
@@ -108,7 +139,7 @@ ___
 [menus]
 # PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
   [[menus.main]]
-  name = "FGLF"
+  name = "Anasayfa"
   pageRef = "/"
   weight = 1
   [[menus.main]]

@@ -36,6 +36,11 @@ Through programs that emphasize accountability, transparency, and ethical leader
         """
 
 [params.office]
+  missionTitle = "Mission Statement"
+  missionStatement = """ To preserve, protect, and apply the intellectual, spiritual, and cultural legacy of Fethullah Gulen in service to humanity by advancing ethical leadership, transparency, social responsibility, respect for the rule of law, and accountability, through legal means, research,  public advocacy, and civic engagement. """
+  visionTitle = "Vision Statement"
+  visionStatement = """ Institutions where transparency and accountability exceed standards of our society, in an inclusive world where education inspires service, knowledge is united with compassion, science aligns with faith, and diversity is embraced with mutual respect — empowering individuals and societies to flourish through wisdom, dialogue, and shared human values. """
+  teamTitle = "Meet the team!"
   title = "About Us"
   description = "Maybe a longer description"
   [params.office.list]
