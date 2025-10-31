@@ -1,16 +1,30 @@
-## Hi there 👋
+# This is the branch containing an example site for the [Magnolia Hugo Theme](https://github.com/ololiuhqui/magnolia-free-hugo-theme/tree/main)
 
-<!--
-**gulenlegacy/gulenlegacy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+The site structure is shown below:
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+├── assets
+│   └── scss
+│       ├── custom.scss
+│       ├── custom-variables.scss
+│       └── main.scss
+├── config
+│   └── _default
+│       ├── config.toml
+│       └── languages
+├── content
+│   ├── en
+│   │   ├── _index.md
+│   │   ├── pages
+│   │   ├── posts
+│   │   ├── profile.webp
+│   │   └── tags
+│   └── it
+│       ├── _index.md
+│       ├── pages
+│       ├── posts
+│       ├── profile.webp
+│       └── tags
+└── themes
+    └── Magnolia
+```
