@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /en/404
+
+Disallow: /tr/404
+
+Sitemap: https://alarming-sorcery-9qvrwxgrjvv37v9g-1313.app.github.dev//sitemap.xml
+
+# Block all known AI crawlers and assistants
+# from using content for training AI models.
+# Source: https://robotstxt.com/ai
+
+

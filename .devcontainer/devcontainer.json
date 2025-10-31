@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "latest",
+      "extended": true
+    },
+    "ghcr.io/devcontainers/features/git-lfs:1": {
+
+      "version": "latest" // Or a specific version like "3.1.2"
+    }
+  },
+  // This part is also recommended for Hugo development
+  "forwardPorts": [1313]
+}

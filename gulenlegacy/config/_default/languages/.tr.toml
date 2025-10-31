@@ -1,0 +1,125 @@
+disabled = false
+languageCode = 'tr-TR'
+languageName = 'Turkish'
+title = 'Fethullah Gulen Legacy Foundation'
+copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
+ Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄""" # Please leave this here to give me and the tools i used some credit for the work, or BuyMeACoffee and change or remove the copyrightlink below :)
+contentDir = "content/tr"
+
+[params]
+  subtitle = "Sorumluluk & Şeffaflık" 
+  # PAGES
+  [params.homepage]
+    ###
+    preTitle = 'Sorumluluk & Şeffaflık'
+    title = "Fethullah Gulen Legacy Foundation"
+    # You can use some markdown safely here as long as you don't include line breaks
+    intro= """
+### "Fethullah Gülen Legacy Foundation (FGLF), dünya çapında saygı duyulan bir alim, eğitimci, barış savunucusu ve hayırsever olan Fethullah Gülen'in değerlerini korumak, tanıtmak ve muhafaza etmek amacıyla kurulmuş kâr amacı gütmeyen bir kuruluştur."
+___
+
+**Evrensel eğitim, manevi gelişim, dinler arası diyalog ve insanlığa barışçıl hizmet değerlerine** dayanan vakıf, 100'den fazla ülkede binlerce okula, insani yardım girişimine ve sivil toplum projesine ilham kaynağı olmuş bir mirası ileriye taşımak için çalışmaktadır. Gülen'in hayatı ve öğretileri, İslami ahlak, Tasavvuf maneviyatı, bilimsel araştırma ve sivil sorumluluğun bir sentezini yansıtmaktadır. Vakıf, hesap verebilirlik, şeffaflık ve etik liderliği vurgulayan programlar aracılığıyla, bireyleri ve toplulukları daha barışçıl, kapsayıcı ve adil bir dünya inşa etmeleri için güçlendirmeyi amaçlamaktadır.
+
+**Vakıf, bu misyonunu şu yollarla ilerletir:**
+
+* Araştırma, yayınlar ve arşiv projeleri
+* Sivil katılım ve sosyal sorumluluk kampanyaları
+* Gülen'e bağlı kurumların denetimi
+        """
+
+[params.about]
+  title = "Hakkımızda"
+ description = "Hakkımızda"
+
+[params.contacts]
+  title = "İletişime geçin!"
+  formCallToAction = "Bize bir mesaj bırakın."
+  socialCallToAction = "Bize sosyal medya hesaplarımızdan da ulaşabilirsiniz." # These are the same as in [params.social]
+  [params.contacts.form]
+    formspreeLink = "https://formspree.io/f/xvgvwwbq" #subscribe to formspree and add the link for the form here
+    firstname = "İsim*"
+    lastname = "Soyisim*"
+    email = "E-mail*"
+    phone = "Telefon numarası*"
+    Inquiry = "Mesajınız*"
+    checkbox = "Verilerimin kanuna uygun olarak işlenmesini kabul ediyorum.*"
+    submitBtn = "Gönder"
+
+[params.services]
+  title = "SSS"
+  description = """Sıkça Sorulan Sorular"""
+  [params.services.list]
+    [params.services.list.0]
+      title= "Q1"
+      description= "A1"
+    [params.services.list.01]
+      title = "Modular"
+      description= "Hide and show some elements easily from the config file."
+    [params.services.list.02]
+      title = "Multilingual"
+      description= "The default content language is english (it can be changed), but you can add as many languages as you want very easily, the theme includes an italian language example and a dropdown menù for easily switching between languages. Permalinks can be localized in each language (eg. you can have `/contacts` for english and `/contatti` for italian)."
+    [params.services.list.03]
+      title = "Customizable"
+      description= "The page content can be customized from within the config files."
+    [params.services.list.04]
+      title = "SEO ready"
+      description= "Every page in /content has an easily customizable meta description and a unique meta title for better and easier indexing. The theme will use the image `static/img/meta-image` as meta image for Google, Meta and X."
+    [params.services.list.05]
+      title = "Google Analytics supported"
+      description= "Insert your Google Analytics tag in the `config.toml` file and be ready to track your site performances easily."
+    [params.services.list.06]
+      title = "Google Maps Included"
+      description= "The contact page can be easily customized by adding a google maps link to get directions towards your activity location."
+
+[params.socials]
+  enabled = true # enables/disables the whole social section in the footer
+  callToAction= "Get connected with us on social networks >"
+      [[params.socials.link]]
+        name = "twitter-x"
+        link = "https://x.com/gulenlegacy"
+      [[params.socials.link]]
+        name = "linkedin"
+        link = ""
+      [[params.socials.link]]
+        name = "whatsapp"
+        link = ""
+      # You can add other socials here by copypasting the above section and
+      # selecting the right name for the icon from here https://icons.getbootstrap.com/
+
+[params.footer]
+  # extraDescription1 = "Straight outta Scranton city"
+  # extraDescription2 = "VAT No. 0000000000"
+  [params.footer.navigate]
+  heading = "Navigasyon"
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section in footer
+  heading = "Bize Ulaşın"
+  address = "971 US Highway 202N Ste N Branchburg, NJ 08876 USA"
+  mail = "contact@gulenlegacy.org"
+  # phone = "+00 0000000"
+
+[params.notfound]
+  title = "404, page not found" # text for 404 page
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Similar Content"
+  toc= "Table of Contents"
+
+[menus]
+# PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
+  [[menus.main]]
+  name = "FGLF"
+  pageRef = "/"
+  weight = 1
+  [[menus.main]]
+  name = "SSS"
+  pageRef = "pages/faqs"
+  weight = 2
+  [[menus.main]]
+  name = "Hakkımızda"
+  pageRef = "pages/about"
+  weight = 3
+  [[menus.main]]
+  name = "İletişime geçin!"
+  pageRef = "pages/contacts"
+  weight = 4
