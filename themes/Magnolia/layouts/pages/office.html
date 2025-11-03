@@ -1,26 +1,29 @@
 {{ define "main"}}
 
 <div class="mx-xl-5 px-xl-5">
-  <div class="text-center mt-5">
-    <h1 class="mb-4 display-2">{{.Site.Params.office.missionTitle}}</h1>
-  </div>
-  <div class="row justify-content-center">
-    <h5 class="text-center mb-2">
-      {{.Site.Params.office.missionStatement }}
-    </h5>
-  </div>
-  <div class="text-center mt-5">
-    <h1 class="mb-4 display-2">{{.Site.Params.office.visionTitle }}</h1>
-  </div>
-  <div class="row justify-content-center">
-    <h5 class="text-center mb-2">
-      {{.Site.Params.office.visionStatement }}
-    </h5>
+  <div class="row mt-5 text-center">
+
+    <div class="col-md-6 justify-content-center">
+      <h1 class="mb-4">{{.Site.Params.office.missionTitle}}</h1>
+      <h5 class="mb-2">
+        {{.Site.Params.office.missionStatement }}
+      </h5>
+    </div>
+    
+    <div class="col-md-6 justify-content-center">
+      <h1 class="mb-4">{{.Site.Params.office.visionTitle }}</h1>
+      <h5 class="mb-2">
+        {{.Site.Params.office.visionStatement }}
+      </h5>
+    </div>
+    
   </div>
 </div>
 
+<hr>
+
 <div class="text-center mt-5">
-    <h1 class="mb-4 display-2">{{.Site.Params.office.teamTitle }}</h1>
+    <h1 class="mb-4">{{.Site.Params.office.teamTitle }}</h1>
   </div>
 
 <!-- grid -->

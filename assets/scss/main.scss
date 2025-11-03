@@ -7,6 +7,14 @@
   font-family: 'YesevaOne';
   src: url(../fonts/YesevaOne-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../fonts/OpenSans-VariableFont_wdth,wght.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-VariableFont_wdth,wght.ttf) format('truetype');
+}
 
 /* ICONS */
 @font-face {
@@ -77,11 +85,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: YesevaOne;
+  font-family: OpenSans;
 }
 
 p {
-  font-family: JosefinSans;
+  font-family: Roboto;
 }
 
 /* NAVBAR */

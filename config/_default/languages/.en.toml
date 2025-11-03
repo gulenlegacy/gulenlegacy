@@ -67,7 +67,23 @@ Through programs that emphasize accountability, transparency, and ethical leader
     [params.office.list.1]
       name= "Murtaza Ozdemir"
       title= "Secretary"
-      bio= "long bio long biolong biolong biolong biolong biolong biolong biolong bio"
+      bio= """ **Educational Technologist • Computer Programmer • Data Specialist**
+
+**Murtaza Ozdemir is a lifelong advocate of the Hizmet Movement,** having first encountered its principles of education, service, and justice as a middle school student in 1983. Deeply inspired by the teachings of Fethullah Gülen, he has devoted his career to advancing education through thoughtful leadership, data-informed decision-making, and the ethical use of technology. With more than 30 years dedicated to education and the Hizmet philosophy, Murtaza has committed himself to the meaningful task of nurturing and empowering youth across diverse communities.
+After graduating with a **B.S. in Mathematics** from Boğaziçi University in Istanbul in **1995**, Murtaza immediately set out abroad to dedicate his life to education across international borders. Since then, he has lived and worked continuously outside of Turkey, moving from one educational institution to another, always in service of fostering learning, character development, and cross-cultural understanding. He later earned a **Master’s in Educational Technology** from William Paterson University in New Jersey, USA.
+With decades of experience in both classroom instruction and educational leadership, Murtaza has consistently worked at the intersection of academic excellence and civic responsibility—guided by Hizmet’s mission to serve humanity through knowledge.
+His professional journey has included impactful roles at both national and international institutions, including:
+* **SMU Pribadi**, Jakarta, Indonesia
+
+* **Horizon Science Academy**, Ohio, USA
+* **Wisconsin Career Academy**, Wisconsin, USA
+* **Paterson Charter School for Science & Technology**, New Jersey, USA
+* **Bergen Arts and Science Charter School**, New Jersey, USA
+* **iLearn Schools**, New Jersey, USA
+
+Throughout these roles, Murtaza has become known for his commitment to educational innovation, fostering inclusive and collaborative learning environments, and empowering educators through the strategic use of technology and data. His leadership reflects a deep moral commitment to service, paired with a student-centered, future-focused approach.
+He remains a devoted advocate for equitable, values-based education, and views every project as an opportunity to fulfill Hizmet’s core ideals—uplifting individuals through knowledge, compassion, and purposeful contribution to society.
+ """
       imageSrc = "https://drive.google.com/thumbnail?id=sss1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
     [params.office.list.2]
       name= "Mustafa ParDane"
@@ -86,7 +102,6 @@ Through programs that emphasize accountability, transparency, and ethical leader
     email = "E-mail*"
     phone = "Phone Number*"
     Inquiry = "Inquiry*"
-    checkbox = "I accept that my data will be processed in accordance with the law*"
     submitBtn = "Submit"
 
 [params.services]

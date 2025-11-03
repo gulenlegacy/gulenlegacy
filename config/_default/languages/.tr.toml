@@ -50,7 +50,22 @@ ___
     [params.office.list.1]
       name= "Murtaza Ozdemir"
       title= "Secretary"
-      bio= "long bio long biolong biolong biolong biolong biolong biolong biolong bio"
+      bio= """
+**Eğitim Teknoloğu • Bilgisayar Programcısı • Veri Uzmanı**
+
+**Murtaza Özdemir, 1983 yılında ortaokul öğrencisiyken** tanıştığı eğitim, hizmet ve adalet ilkelerinden ilham alarak hayatını **Hizmet Hareketi'ne adamış bir savunucusudur.** Fethullah Gülen'in öğretilerinden derinden ilham alan Özdemir, kariyerini düşünceli liderlik, veriye dayalı karar alma ve teknolojinin etik kullanımı yoluyla eğitimi ilerletmeye adamıştır. 30 yılı aşkın bir süredir eğitime ve Hizmet felsefesine adanmış olan Murtaza, kendini farklı topluluklardaki gençleri besleme ve güçlendirme gibi anlamlı bir göreve vakfetmiştir.
+**1995** yılında İstanbul'da **Boğaziçi Üniversitesi Matematik Bölümü'nden** mezun olduktan sonra, Murtaza hayatını uluslararası sınırlarda eğitime adamak için hemen yurt dışına çıkmıştır. O zamandan beri sürekli olarak Türkiye dışında yaşamış ve çalışmış, bir eğitim kurumundan diğerine geçerek her zaman öğrenmeyi, karakter gelişimini ve kültürlerarası anlayışı teşvik etme hizmetinde bulunmuştur. Daha sonra ABD, New Jersey'deki William Paterson Üniversitesi'nden **Eğitim Teknolojileri alanında Yüksek Lisans** derecesi almıştır.
+Hem sınıf içi eğitim hem de eğitim liderliği alanında onlarca yıllık tecrübesiyle Murtaza, Hizmet'in bilgi yoluyla insanlığa hizmet etme misyonunun rehberliğinde, sürekli olarak akademik mükemmellik ve sivil sorumluluğun kesişim noktasında çalışmıştır.
+Profesyonel yolculuğu, aşağıdakiler de dahil olmak üzere hem ulusal hem de uluslararası kurumlarda etkili roller içermiştir:
+* **SMU Pribadi**, Cakarta, Endonezya
+* **Horizon Science Academy**, Ohio, ABD
+* **Wisconsin Career Academy**, Wisconsin, ABD
+* **Paterson Charter School for Science & Technology**, New Jersey, ABD
+* **Bergen Arts and Science Charter School**, New Jersey, ABD
+* **iLearn Schools**, New Jersey, ABD
+
+Bu rolleri boyunca Murtaza, eğitimde yeniliğe olan bağlılığı, kapsayıcı ve işbirlikçi öğrenme ortamlarını teşvik etmesi ve teknoloji ile verinin stratejik kullanımı yoluyla eğitimcileri güçlendirmesiyle tanınmıştır. Liderliği, öğrenci merkezli, gelecek odaklı bir yaklaşımla birleşen hizmete yönelik derin bir ahlaki bağlılığı yansıtmaktadır.
+Eşitlikçi, değerlere dayalı eğitimin sadık bir savunucusu olmaya devam etmekte ve her projeyi Hizmet'in temel ideallerini gerçekleştirme—bireyleri bilgi, şefkat ve topluma amaçlı katkı yoluyla yükseltme—fırsatı olarak görmektedir. """
       imageSrc = "https://drive.google.com/thumbnail?id=sss1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
     [params.office.list.2]
       name= "Mustafa ParDane"
@@ -73,7 +88,6 @@ Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in için
     email = "E-mail*"
     phone = "Telefon numarası*"
     Inquiry = "Mesajınız*"
-    checkbox = "Verilerimin kanuna uygun olarak işlenmesini kabul ediyorum.*"
     submitBtn = "Gönder"
 
 [params.services]
