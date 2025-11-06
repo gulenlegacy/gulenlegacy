@@ -136,12 +136,12 @@ He remains a devoted advocate for equitable, values-based education, and views e
       [[params.socials.link]]
         name = "twitter-x"
         link = "https://x.com/gulenlegacy"
-      [[params.socials.link]]
-        name = "linkedin"
-        link = ""
-      [[params.socials.link]]
-        name = "whatsapp"
-        link = ""
+      # [[params.socials.link]]
+      #   name = "linkedin"
+      #   link = ""
+      # [[params.socials.link]]
+      #   name = "whatsapp"
+      #   link = ""
       # You can add other socials here by copypasting the above section and
       # selecting the right name for the icon from here https://icons.getbootstrap.com/
 
@@ -170,15 +170,15 @@ He remains a devoted advocate for equitable, values-based education, and views e
   name = "Home"
   pageRef = "/"
   weight = 1
-  [[menus.main]]
-  name = "FAQs"
-  pageRef = "pages/faqs"
-  weight = 2
+  # [[menus.main]]
+  # name = "FAQs"
+  # pageRef = "pages/faqs"
+  # weight = 2
   [[menus.main]]
   name = "About Us"
   pageRef = "pages/about"
   weight = 3
   [[menus.main]]
-  name = "Contacts"
+  name = "Contact Us"
   pageRef = "pages/contacts"
   weight = 4

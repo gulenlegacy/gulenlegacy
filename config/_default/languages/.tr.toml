@@ -122,12 +122,12 @@ Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in için
       [[params.socials.link]]
         name = "twitter-x"
         link = "https://x.com/gulenlegacy"
-      [[params.socials.link]]
-        name = "linkedin"
-        link = ""
-      [[params.socials.link]]
-        name = "whatsapp"
-        link = ""
+      # [[params.socials.link]]
+      #   name = "linkedin"
+      #   link = ""
+      # [[params.socials.link]]
+      #   name = "whatsapp"
+      #   link = ""
       # You can add other socials here by copypasting the above section and
       # selecting the right name for the icon from here https://icons.getbootstrap.com/
 
@@ -156,10 +156,10 @@ Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in için
   name = "Anasayfa"
   pageRef = "/"
   weight = 1
-  [[menus.main]]
-  name = "SSS"
-  pageRef = "pages/faqs"
-  weight = 2
+  # [[menus.main]]
+  # name = "SSS"
+  # pageRef = "pages/faqs"
+  # weight = 2
   [[menus.main]]
   name = "Hakkımızda"
   pageRef = "pages/about"
