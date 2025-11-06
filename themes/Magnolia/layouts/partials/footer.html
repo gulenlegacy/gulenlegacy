@@ -37,13 +37,13 @@
           <hr class="mb-4 mt-0 d-inline-block" />
           {{- range .Site.Menus.main }}
           <p>
-            <a href="{{ .URL }}" class="text-muted text-uppercase">{{.Name}}</a>
+            <a href="{{ .URL }}" class="text-muted text-uppercase text-decoration-none">{{.Name}}</a>
           </p>
           {{ end }}
         </div>
         <!-- Grid column 2-->
         <div class="d-none d-xl-block col-xl-4 text-center mb-3">
-          <h3>{{.Site.Title}}</h3>
+          <h4>{{.Site.Title}}</h4>
           <p class="mb-2">{{ .Site.Params.subtitle}}</p>
           <div class="fw-light mb-2">
             {{ .Site.Params.footer.contacts.address }} <br />
