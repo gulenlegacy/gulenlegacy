@@ -179,10 +179,10 @@ He remains a devoted advocate for equitable, values-based education, and views e
   pageRef = "pages/about"
   weight = 3
   [[menus.main]]
-  name = "Contact Us"
-  pageRef = "pages/contacts"
-  weight = 4
-  [[menus.main]]
   name = "Documents"
   pageRef = "pages/docs"
+  weight = 4
+  [[menus.main]]
+  name = "Contact Us"
+  pageRef = "pages/contacts"
   weight = 5
