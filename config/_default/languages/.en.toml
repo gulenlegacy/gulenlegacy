@@ -43,6 +43,8 @@ Through programs that emphasize accountability, transparency, and ethical leader
   teamTitle = "Meet the team!"
   title = "About Us"
   description = "Maybe a longer description"
+  boardTitle = "Board of Directors"
+  councilTitle = "Advisory Council"
   [params.office.list]
     [params.office.list.0]
       name= "Fatih Yanik"

@@ -39,6 +39,8 @@ ___
   teamTitle = "Ekibimizle tanışın!"
   title = "Hakkımızda"
   description = "Hakkımızda"
+  boardTitle = "Yönetim Kurulu"
+  councilTitle = "Danışma Konseyi"
   [params.office.list]
     [params.office.list.0]
       name= "Fatih Yanik"
