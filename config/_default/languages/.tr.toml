@@ -122,6 +122,9 @@ Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in için
       [[params.socials.link]]
         name = "twitter-x"
         link = "https://x.com/gulenlegacy"
+      [[params.socials.link]]
+        name = "youtube"
+        link = "https://www.youtube.com/@gulenlegacy"  
       # [[params.socials.link]]
       #   name = "linkedin"
       #   link = ""

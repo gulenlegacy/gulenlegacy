@@ -136,6 +136,9 @@ He remains a devoted advocate for equitable, values-based education, and views e
       [[params.socials.link]]
         name = "twitter-x"
         link = "https://x.com/gulenlegacy"
+      [[params.socials.link]]
+        name = "youtube"
+        link = "https://www.youtube.com/@gulenlegacy"  
       # [[params.socials.link]]
       #   name = "linkedin"
       #   link = ""
