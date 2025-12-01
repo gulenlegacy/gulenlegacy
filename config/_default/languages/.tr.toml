@@ -78,6 +78,11 @@ Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in için
 
 2015 yılında ABD'ye taşındıktan sonra Mustafa, yazılım mühendisliği alanında bir kariyere geçiş yapmıştır. Google'a katılmış ve şu anda Boulder, Colorado'da Yazılım Mühendisi olarak çalışmaktadır. Bir yıllık kâr amacı gütmeyen kuruluş yönetim kurulu deneyimi ve Hizmet Hareketi'ne olan ömür boyu süren bağından güç alan Mustafa, Vakfa analitik uzmanlık ve adanmış hizmetin eşsiz bir karışımını getirmektedir. """
       imageSrc = "https://drive.google.com/thumbnail?id=1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+  [params.office.advisors]
+    [params.office.advisors.0]
+      name= "Test"
+      bio= """an interesting <br> kisi <p>peki bu kim</p><p>interestinggg</p>"""
+      imageSrc = "https://drive.google.com/thumbnail?id=1hOsgTbadguRHCpuO3iuSdt5GRZo-sss5UH4&sz=w1000"
 
 [params.contacts]
   title = "İletişime geçin!"

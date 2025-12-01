@@ -51,4 +51,23 @@
 <div class="text-center mt-5">
   <h1 class="mb-4">{{.Site.Params.office.councilTitle }}</h1>
 </div>
+<!-- grid -->
+{{range $index, $element := .Site.Params.office.advisors}}
+<section class="grid">
+  <div class="row justify-content-between">
+    <div class="col-md-6 my-3 gallery">
+      <img class="rounded shadow" src="{{.imageSrc}}"
+        onerror="this.src='https://placehold.co/400x400/cccccc/1f2937?text=Image+Error'" />
+    </div>
+    <div class="col-md-6 my-3">
+      <div class="d-flex flex-column h-100 justify-content-center">
+        <h1 class="display-2">{{.name}}</h1>
+        <p class="display-5">{{.title}}</p>
+        <p class="text-justify text-lg-start">{{.bio | markdownify}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- end-grid -->
 {{ end}}
