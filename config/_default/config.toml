@@ -5,7 +5,7 @@ defaultContentLanguage = 'en'
 # defaultContentLanguageInSubDir = true
 enableRobotsTXT = true
 theme = "Magnolia"
-googleAnalytics = ""
+googleAnalytics = "G-WYJ0T6K0X9"
 
 # BLOG
 # Uncomment if you want to disable all posts and tags rendering and indexing
