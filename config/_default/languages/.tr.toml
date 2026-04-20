@@ -56,6 +56,15 @@ Mustafa, ilk yıllarından itibaren bu kelimeyi duyarak kendini "Hizmet'in için
 
 2015 yılında ABD'ye taşındıktan sonra Mustafa, yazılım mühendisliği alanında bir kariyere geçiş yapmıştır. Google'a katılmış ve şu anda Boulder, Colorado'da Yazılım Mühendisi olarak çalışmaktadır. Bir yıllık kâr amacı gütmeyen kuruluş yönetim kurulu deneyimi ve Hizmet Hareketi'ne olan ömür boyu süren bağından güç alan Mustafa, Vakfa analitik uzmanlık ve adanmış hizmetin eşsiz bir karışımını getirmektedir. """
       imageSrc = "https://drive.google.com/thumbnail?id=1hOsgTbadguRHCpuO3iuSdt5GRZo-5UH4&sz=w1000"
+  [params.office.list.2]
+      name= "Ali Keskin"
+      title= "Secretary"
+      bio= """Ali Keskin, Yönetim Kurulu'nun organizasyon ve iletişim süreçlerini yürüttüğü Fethullah Gülen Mirası Vakfı'nın Sekreteri olarak görev yapmaktadır. Yönetimde şeffaflığı ve hesap verebilirliği sağlamak amacıyla toplantıları koordine etmekten, dokümantasyonu yönetmekten ve iç operasyonları düzene sokmaktan sorumludur.
+
+Kariyerine Türkiye'de kimya öğretmeni olarak başlayan Ali, daha sonra çeşitli eğitim kurumlarında idari liderlik rollerine geçiş yapmıştır. Bu deneyimler ona ekip liderliği ve organizasyonel gelişim konularında sağlam bir temel kazandırmıştır. Şu anda Almanya'da yaşayan Ali, Yazılım Geliştiricisi olarak teknoloji sektörüne adım atmıştır. Bu kariyer değişikliği, onun analitik problem çözme becerilerini ve yapılandırılmış, süreç odaklı ortamlarda başarılı olma yeteneğini daha da keskinleştirmiştir.
+
+Eğitim ve liderlik geçmişini teknik uzmanlığıyla harmanlayan Ali, görevine disiplinli ve hizmet odaklı bir yaklaşım getirerek Vakfın misyonuna önemli bir katkı sağlamaktadır."""
+      imageSrc= "https://drive.google.com/thumbnail?id=1-STsTgVvbmzOuR2qrYeOjAorxpgX8hL5&sz=w1000"
 
 [params.contacts]
   title = "İletişime geçin!"
