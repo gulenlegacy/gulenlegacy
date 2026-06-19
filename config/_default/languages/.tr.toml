@@ -8,6 +8,7 @@ contentDir = "content/tr"
 
 [params]
   subtitle = "Sorumluluk & Şeffaflık" 
+  disclaimer = "**Yasal Uyarı:** Fethullah Gulen Legacy Foundation, Inc. (“FGLF”), bağımsız, kâr amacı gütmeyen bir 501(c)(3) hayır kurumudur ve Fethullah Gülen'in Terekesi ile hiçbir bağlantısı yoktur. FGLF, Fethullah Gülen veya onun Terekesi ile ilişkili herhangi bir telif hakkı veya diğer fikri mülkiyet hakları üzerinde hiçbir hak iddia etmemektedir."
   # PAGES
   [params.homepage]
     ###
@@ -26,6 +27,7 @@ ___
 * Sivil katılım ve sosyal sorumluluk kampanyaları
 * Gülen'e bağlı kurumların denetimi
         """
+  disclaimer = "DISCLAIMER TURKCE"
 
 [params.about]
   title = "Hakkımızda"
